@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="first"
+    errors="0" failures="0" hostname="" id="" package="first" skipped="0"
+    tests="1" time="9.967" timestamp="">
+  
+    <testcase name="测试登录页相关验证和能否正常登录" classname="first" time="9.967" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
