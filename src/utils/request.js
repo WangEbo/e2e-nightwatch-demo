@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const axiosIns = axios.create({
-    baseURL: 'http://127.0.0.1:8087/',
+    baseURL: 'http://127.0.0.1:8089/',
     timeout: 10000
 })
 
@@ -25,7 +25,7 @@ export const request = (config) => {
     let requireObj={
         method: config.type,
         url: config.url,
-        headers: config.headers,
+        // headers: config.headers,
     };
     requireObj[type]=toData;
     let promise$ = new Promise((resolve,reject)=>{
